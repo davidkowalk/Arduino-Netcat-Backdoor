@@ -43,7 +43,7 @@ void setup() {
   Print("powershell", 300);
 
   for(int i = 0; i<sizeOf(vectors); i++ {
-    Print(vectors[i]);
+    Print(vectors[i], 50);
   }
 
   Keyboard.end();
