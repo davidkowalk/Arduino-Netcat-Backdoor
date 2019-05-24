@@ -1,4 +1,5 @@
-# Arduino Typer
+# Arduino - Netcat - Backdoor for Windows
+> Name suggestions welcome.
 
 	Proof Of Concept. Not intended for real life use.
 	I can't take responsibillity for stuff other People do with this
