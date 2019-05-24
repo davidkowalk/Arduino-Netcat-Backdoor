@@ -9,7 +9,3 @@ The Arduino-script saves a batch script from a server into the Windows startup-f
 
 The Script then sends a request to the server that includes the machines IP-address.
 
-## TODO
-- Server that saves the ip adress
-	- Switch to netcat
-	- employ Node.js?
