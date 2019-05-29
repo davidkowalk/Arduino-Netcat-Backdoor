@@ -34,7 +34,7 @@ The Node server has been written and tested on version 10.15.1.0. To successfull
 ## Integration into your own attack
 
 ### Setting up the file host
-First you will need to upload batch file and the [netcat](https://github.com/diegocr/netcat) to a file hosting service. It is important, that you can get a direct download-link. Viable services are, for example:
+First you will need to upload batch file and the [open source netcat](https://github.com/diegocr/netcat) or alternatively [this version](https://eternallybored.org/misc/netcat/)  to a file hosting service. It is important, that you can get a direct download-link. Viable services are, for example:
 - [bplaced](https://bplaced.net)
 - [1fitcher](https://1fichier.com/)
 
