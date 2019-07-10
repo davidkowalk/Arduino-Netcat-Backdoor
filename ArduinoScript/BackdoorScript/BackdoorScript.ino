@@ -42,7 +42,7 @@ void setup() {
 
   Print("powershell", 300);
 
-  for(int i = 0; i<sizeOf(vectors); i++ {
+  for(int i = 0; i<sizeof(vectors); i++) {
     Print(vectors[i], 50);
   }
 
