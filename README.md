@@ -2,7 +2,7 @@
 > Name suggestions welcome.
 
 	Proof Of Concept. Not intended for real life use.
-	I can't take responsibillity for stuff other People do with this
+	I can't take responsibillity for stuff other people do with this
 Attacks a Windows machine running Windows 7 or later, creating a persistent Backdoor.
 
 ## Funtionallity
